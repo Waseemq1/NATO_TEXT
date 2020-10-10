@@ -8,7 +8,7 @@ def Convert():
     for letter in My_text:
     
         if letter == "a":
-            print("ALPHA2", end= " ")
+            print("ALPHA", end= " ")
             
         elif letter == "b":
             print("BRAVO", end=" ")
@@ -86,10 +86,34 @@ def Convert():
             print("/", end=" ")
  
 def decode():
-     My_code = input("what's your code: ")     
-     My_code = My_code.lower()
+      My_code = input("what's your code: ")     
+      My_code = My_code.lower()
+      My_code = My_code.strip()
+      for code in My_code: 
+          if code == "alpha":
+              print("a" , end = " ")
+          elif code == "bravo":
+              print("b")
+          elif code == "charlie":
+               print("c")
+          elif code == "delta":
+               print("d")
+          elif code == "echo":
+               print("h")
+          elif code == "foxtrot":
+               print("f")
+          elif code == "golf":
+               print("g")
+          elif code == "hotel":
+               print("h")
+          elif code == "india":
+               print("i")
+          elif code == "":
+              print()            
+          elif code == "/":
+               print(" ")
      
-     
+   
 
     
 if Program == 1:
