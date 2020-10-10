@@ -1,2 +1,2 @@
 # NATO_TEXT
-Converts texts two NATO Phonetic Alphabet and vise versa
+Converts texts to NATO Phonetic Alphabet and vise versa
